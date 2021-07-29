@@ -88,6 +88,47 @@ textarea {
    ========================================================================== */
 
     /* -------------------- Base Header - Footer Styles -------------------- */
+
+/* unplugged header */
+
+html {
+
+  font-size:16px;
+
+}
+
+body {
+
+  /*font-family: ;*/
+
+  font-size: 1em;
+
+}
+
+header img {
+
+  width: 100%;
+
+  margin: 0;
+}
+
+
+
+ /* Header styles */
+ 
+header {
+  padding: 15px 0;
+}
+
+
+
+.header-divider {
+
+width: 100%;
+
+}
+
+
 header,
 
 footer {
@@ -111,6 +152,11 @@ header.content-wrapper {
 
   flex-flow: row wrap;
 
+  width: 100%;
+
+  margin: 90%;
+
+
 }
 
 header nav {
@@ -123,6 +169,10 @@ header nav {
 
   flex-flow: row wrap;
 
+  padding: 15px;
+
+  width: 90%
+
 }
 
 header nav ul {
@@ -130,6 +180,26 @@ header nav ul {
   display: flex;
 
   justify-content: space-around;
+
+  width: 100%
+
+}
+
+nav ul li a{
+
+  padding:20px;
+  
+  }
+  
+h1 {
+  font-size: 2em;
+
+  margin: 0.67em 0;
+
+  justify-content: center;
+
+  align-content: center;
+
 
 }
 
@@ -175,6 +245,8 @@ footer .social-icons p {
 
   flex-flow: row wrap;
 
+  height: 22px;
+
 }
 /* Features */
 
@@ -185,6 +257,8 @@ footer .social-icons p {
   justify-content: center;
 
   flex-flow: row wrap;
+
+  padding: 50px;
 
 }
 
@@ -198,6 +272,8 @@ footer .social-icons p {
 
   flex-flow: row wrap;
 
+  width: 100%;
+
 }
 
 /* Reviews */
@@ -210,6 +286,63 @@ footer .social-icons p {
 
   flex-flow: row wrap;
 
+  width: 100%
+
+}
+
+h3 {
+  padding-left: 20px;
+  margin: 20px;
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+p {
+
+  padding: 20px;
+  
+  display: block;
+
+  margin-block-start: 1em;
+
+  margin-block-end: 1em;
+
+  margin-inline-start: 0px;
+
+  margin-inline-end: 0px;
+}
+
+h1 {
+  font-size: 2em;
+
+  margin: 0.67em 0;
+
+  justify-content: center;
+
+  align-content: center;
+
+  padding: 25px;
+
+}
+
+/* footer */
+
+header, footer {
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  flex-flow: row wrap;
+
+  padding: 50px;
 }
 
 
@@ -266,7 +399,11 @@ footer .social-icons p {
     align-items: center;
 
     flex-flow: row wrap;
-    
+
+    width: 55%;
+
+    margin: 50px 0;
+
   }
   
 
