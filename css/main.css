@@ -527,16 +527,64 @@ header, footer {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-}
+   @media only screen and (min-width: 768px) {
+    /*Tablet styles here*/
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
-}
+     /* General styles */
+
+     .content-wrapper {
+
+      max-width: 640px;
+
+      margin: 100px 0;
+
+    }
+
+     /* Header */
+
+     header {
+
+      justify-content: space-around;
+
+      padding: 33px;
+
+    }
+
+    header .content-wrapper {
+
+      width: 100%;
+
+      justify-content: space-between;
+
+    }
+
+    header nav {
+
+      width: 20%;
+      
+    }
+  
+    header nav ul {
+
+      justify-content: space-between;
+
+    }
+
+    
+
+
+ 
+
+
+
+
+
+
+    }
+     
+    @media only screen and (min-width: 1200px) {
+    /*Desktop styles here*/
+    }
 
 /* ==========================================================================
    Print styles.
