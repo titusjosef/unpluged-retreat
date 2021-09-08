@@ -528,55 +528,195 @@ header, footer {
    ========================================================================== */
 
    @media only screen and (min-width: 768px) {
+
     /*Tablet styles here*/
 
-     /* General styles */
+    /* General styles */
 
-     .content-wrapper {
+    .content-wrapper {
 
       max-width: 640px;
 
       margin: 100px 0;
 
+      
+
     }
 
-     /* Header */
+    /* Header */
 
-     header {
+    /* Header */
+
+    header img {
+
+      width: 200px;
+
+      margin: 0px;
+
+    }
+    
+   
+    
+    header {
 
       justify-content: space-around;
 
-      padding: 33px;
-
+      padding: 33px 0;
     }
-
+  
     header .content-wrapper {
 
       width: 100%;
 
       justify-content: space-between;
 
+      height:60px; /*probably don't want to do this */
+
+      display: flex;
+      
+
     }
 
-    header nav {
+    h1 {
 
-      width: 20%;
-      
+    padding-left: 110px
+
+    }
+
+    header figure {
+
+      width: 75%;
+
     }
   
+    header nav {
+
+      width: 25%;
+
+    }
+
     header nav ul {
 
       justify-content: space-between;
 
     }
+  
+    .header-divider {
 
+      display: none;
+
+    }
+ /* Hero Area */
+  
+    /* Aside */
+    aside .content-wrapper {
+      margin: 50px 0;
+      display: flex;
+      justify-content: space-between; /*probably not*/
+      flex-flow: row wrap;
+      padding-left: 50px;
+    }
+  
+    aside .content-wrapper .form-description,
+    aside .content-wrapper .form {
+      width: 40%;
+      margin: 0;
+    }
+  
+    /* Features */
+
+    .features .content-wrapper {
+
+      display: flex;
+
+      flex-flow: row wrap;
+
+
+    }
+
+
+    .features article {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: column wrap;
+      flex-basis: 50%;
+    }
+
+    img {
+
+      width: 300px;
+    }
+
+   
+    p {
+        padding: 20px;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        
+    }
+    
+    .features .featues-item-description {
+      width: 50%;
+      
+    }
+  
+    /* Reviews */
+    .reviews article {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .reviews article div {
+      
+      width: 49%;
+
+    }
+
+    .reviews .content-wrapper {
+
+      display: flex;
+
+    }
+  
+    /* Footer */
+    footer .content-wrapper {
+      width: 65%;
+      margin: 100px 0;
+    }
+  
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+    }
+
+   
     
 
+    
+  
+    footer .contact {
+      margin-bottom: 0;
 
- 
+      display: flex;
+
+      flex-direction: column;
+
+      align-items: center;
+    }
 
 
 
+  
+    footer .copyright {
+      width: 100%;
+
+      text-align: center;
+    }
 
 
 
