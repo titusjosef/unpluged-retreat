@@ -107,7 +107,9 @@ body {
 
   text-align: left;
 
+  color: #e2e3ed;
 
+  text-align: left;
 
 }
  
@@ -131,6 +133,8 @@ h2 {
   font-family: 'Poppins', sans-serif;
 
   font-size: 1.875em;
+
+  font-weight: 500;
  
 }
  
@@ -143,6 +147,8 @@ h4 {
 
   font-size: 1.125em;
 
+  font-weight: 500;
+
 }
  
 p {
@@ -152,13 +158,6 @@ p {
   line-height: 1.285;
 }
  
-img {
- 
-}
- 
-figure {
- 
-}
  
 address {
 
@@ -172,13 +171,8 @@ address {
   margin: 50px;
  
 }
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
     /* -------------------- Base Header - Footer Styles -------------------- */
 
-/* unplugged header */
 
 html {
 
@@ -188,7 +182,6 @@ html {
 
 body {
 
-  /*font-family: ;*/
 
   font-family: 'Open Sans', sans-serif;
 
@@ -206,6 +199,22 @@ header img {
 
 
  /* Header styles */
+
+ header
+ footer {
+
+  background-color: #2a423a;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  
+
+ }
+ 
  
 header {
   padding: 15px 0;
@@ -216,6 +225,14 @@ header {
 .header-divider {
 
 width: 100%;
+
+background: #3a3a3a;
+
+height: 1px;
+
+width: 100%;
+
+margin: 10px; 
 
 }
 
@@ -260,6 +277,10 @@ header nav {
 
   flex-flow: row wrap;
 
+  font-size: 1.125em;
+
+  font-weight: 700px;
+
   padding: 15px;
 
   width: 90%
@@ -276,15 +297,20 @@ header nav ul {
 
 }
 
+header nav ul li {
+
+  font-size: 1.125em;
+
+}
+
+
 nav ul li a{
 
   padding:20px;
   
   }
 
-  ol {
 
-  }
   
 h1 {
   font-size: 2em;
@@ -298,9 +324,6 @@ h1 {
 
 }
 
-h2 {
-
-}
 
 h3,
 h4 {
@@ -308,24 +331,35 @@ h4 {
   font-family: 'Poppins', sans-serif;
 
 }
-p {
-	
+
+footer {
+
+  text-align: center;
+
+  flex-direction: column;
+
+  background-color: #0a290a;
+
 }
- 
-img {
- 
+
+footer p {
+
+  margin: 0;
+
 }
- 
-figure {
- 
+
+footer .content-wrapper {
+
+  width: 55%;
+
+  margin: 50px;
+
 }
- 
-address {
- 
-}
- 
-.content-wrapper {
- 
+
+footer .contact {
+
+  margin-bottom: 50px;
+
 }
 
 footer .social-icons {
@@ -347,8 +381,13 @@ footer .social-icons p {
   align-items: center;
 
 }
+ footer .copyright {
 
+  margin: 20px;
+ }
 /* -------------------- Mobile Styles - Homepage -------------------- */
+
+/* Hero Area */
 
 .hero-area {
 
@@ -360,7 +399,18 @@ footer .social-icons p {
 
 }
 
-.aside {
+.hero-area h1 {
+
+  font-family: 'poppins', Arial, Helvetica, sans-serif;
+
+  font-weight: 500;
+}
+
+/* Aside */
+
+aside {
+
+  background-color: #527158;
 
   display: flex;
 
@@ -370,9 +420,56 @@ footer .social-icons p {
 
   flex-flow: row wrap;
 
-  height: 22px;
 
 }
+
+aside .form {
+
+  margin-top: 30px;
+
+}
+ 
+input[type=text] {
+
+  box-sizing: border-box;
+
+  width: 100%;
+
+  color: #2a423a;
+
+  font-style: italic;
+
+  padding: 1em;
+
+}
+ 
+input[type=button] {
+
+  width: 100%;
+
+  padding: 20px 0;
+
+  margin-top: 20px;
+
+  background-color: #2a423a;
+
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+
+  font-weight: 500;
+
+  font-size: 1.125em;
+
+  color: #e2e3ed;
+
+  border: none;
+
+  text-align: center;
+
+  text-transform: uppercase;
+
+}
+
+
 /* Features */
 
 .features {
@@ -387,6 +484,13 @@ footer .social-icons p {
 
 }
 
+
+.features article {
+
+  width: 60%;
+
+}
+
 .features .features-items {
 
   display: flex;
@@ -397,8 +501,13 @@ footer .social-icons p {
 
   flex-flow: row wrap;
 
-  width: 100%;
+}
 
+.features p {
+  
+  text-align: center;
+  
+  margin: 0%;
 }
 
 /* Reviews */
@@ -409,13 +518,22 @@ footer .social-icons p {
 
   justify-content: center;
 
+  background-color: #2a423a;
+
   flex-flow: row wrap;
 
-  width: 100%
+  width: 100%;
 
 }
 
-h3 {
+.reviews h2 {
+
+  margin-bottom: 40px; 
+
+  line-height: 1;
+}
+
+.reviews h3 {
   padding-left: 20px;
   margin: 20px;
   display: block;
@@ -491,6 +609,7 @@ header, footer {
 
     flex-flow: row wrap;
 
+
   }
   
   .contact-section {
@@ -502,6 +621,8 @@ header, footer {
     align-items: center;
 
     flex-flow: row wrap;
+
+    background-color: #2a423a;
 
   }
   
@@ -672,7 +793,7 @@ header, footer {
 
     }
 
-    /* Header */
+    
 
     /* Header */
 
