@@ -147,7 +147,7 @@ h4 {
 
   font-family: 'Poppins', sans-serif;
 
-  margin: 20px 0;
+  margin: 0;
 
   font-size: 1.125em;
 
@@ -212,6 +212,8 @@ header img {
   justify-content: center;
 
   align-items: center;
+
+  flex-flow: row wrap;
 
   
 
@@ -631,10 +633,25 @@ header, footer {
 
     flex-flow: row wrap;
 
+    background-color: #527158;
 
   }
 
-  .map figure {
+  h1 {
+
+    margin: 0;
+  }
+
+  p {
+    
+    margin: 0;
+  }
+
+  h3 {
+    padding: 20px;
+  }
+
+  /*.map figure { 
 
     width: 100%;
 
@@ -646,9 +663,9 @@ header, footer {
 
     position: relative;
 
-  }
+  }*/
 
-  .map frame {
+  .map iframe {
 
     width: 100%;
 
@@ -675,6 +692,20 @@ header, footer {
 
     background-color: #2a423a;
 
+  }
+
+  .general-content {
+
+    background-color: #2a423a;
+    
+  }
+  
+
+  .contact-content p {
+
+    margin: 0;
+
+    
   }
   
   /* ==========================================================================
@@ -870,11 +901,6 @@ header, footer {
 
     }
 
-    h1 {
-
-    padding-left: 110px
-
-    }
 
     header figure {
 
@@ -1008,9 +1034,159 @@ header, footer {
       text-align: center;
     }
 
+    
+    /* ==========================================================================
+   About Page
+   ========================================================================== */
 
 
-    }
+
+   .header-wrapper {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding-right: 50px;
+
+    justify-content: space-between;
+
+   }
+
+
+
+   .header-content {
+
+    padding-right: 100px;
+
+   }
+
+   .mission-content {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding-top: 20px;
+
+    flex-flow: row;
+
+   }
+
+   .mission-content p {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-flow: row wrap;
+
+    width: 45%;
+   } 
+
+
+
+.contact-content .content-wrapper h2 {
+
+
+  width: 80%;
+
+}
+
+p{
+
+  margin: 0;
+
+  padding: 0px 20px 20px 20px;
+}
+
+
+.h1-class {
+
+  width: 65%
+}
+
+
+.general-content {
+
+  display: flex;
+
+  flex-flow: row wrap;
+
+  margin: 0;
+
+  justify-content: space-evenly;
+
+}
+
+.h3 {
+ 
+  height: 23px;
+
+}
+
+.group-one {
+
+  display: flex;
+
+  width: 50%;
+
+  flex-flow: row wrap;
+
+  margin: 0;
+  
+}
+
+
+
+.group-two {
+
+  display: flex;
+
+  width: 50%;
+
+  flex-flow: row wrap;
+
+  margin: 0;
+ 
+}
+
+.footer-content {
+
+  display: flex;
+
+  flex-flow: row wrap;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
      
     @media only screen and (min-width: 1200px) {
     /*Desktop styles here*/

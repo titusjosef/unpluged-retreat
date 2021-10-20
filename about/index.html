@@ -16,8 +16,8 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/main.css">
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -27,12 +27,10 @@
   <!-- Add your site or application content here -->
   <header>
 
-    <div class="content wrapper">
+    <div class="header-wrapper">
 
-      <a href="#"><img src="alt="unpluged logo"></a>
-
-      <div class="header-divider"></div>
-
+      <a href="#"><img src="../img/unpluggedlogo.png" alt="unplugged logo"> </a>
+      
       <nav>
 
         <ul>
@@ -56,10 +54,15 @@
 
       <div class="content-wrapper">
 
+        <div class="header-content">
+
+          <h1>Our Mission - we want to make you the team you always wanted to be. </h1>
+
+        </div>
+
           <div class="mission-content">
 
-            <h1>Our Mission - we want to make you the team you always wanted to be. </h1>
-
+          
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
 
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
@@ -67,6 +70,10 @@
           </div>
 
       </div> <!-- mission content wrapper ends -->
+
+
+
+  
 
 
 
@@ -78,13 +85,7 @@
 
   <section class= "map">
 
-  <figure>
-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3317.194905380339!2d-84.49908868483655!3d33.755628980687675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f51c723820ede1%3A0x60c095b0d8f1b034!2sCascade%20Family%20Skating!5e0!3m2!1sen!2sus!4v1634166474115!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-
-
-
-  </figure>
+    <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3317.194905380339!2d-84.49908868483655!3d33.755628980687675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f51c723820ede1%3A0x60c095b0d8f1b034!2sCascade%20Family%20Skating!5e0!3m2!1sen!2sus!4v1634166474115!5m2!1sen!2sus' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy'></iframe></div>
 
   </section>
 
@@ -92,27 +93,39 @@
 
 
 
-  <section class="general info">
+  <section class="general-info">
 
     <div class="content-wrapper">
 
-      <div class= general-content>
+      <div class= "general-content">
+
+        <div class= "h1-class">
 
         <h1> Contact us, because you all need this. </h1>
+      
+        </div>
+
+        <div class= "group-one">
 
         <h3> General Information </h3>
-
+       
         <p>333 Main St, Lake Geneva, WI 53147 <br>
 
           555-555-5555 <br>
 
           hello@unplugged.com</p>
 
+        </div>
+
+        <div class ="group-two">
+
           <h3>Chat with a facilitator</h3>
 
           <p>555-555-5556 <br>
 
             facilitator@unplugged.com</p>
+
+         </div>
  
        </div>
 
@@ -122,7 +135,7 @@
   
   <footer>
 
-    <div class="content-wrapper">
+    <div class="section-wrapper">
 
       <div class="footer-content">
 
@@ -187,7 +200,10 @@
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
   </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+
+</main>
+
 </body>
 
 </html>
