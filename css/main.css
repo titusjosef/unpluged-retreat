@@ -354,6 +354,11 @@ footer p {
 
 }
 
+.footer-content {
+
+  margin: 100px;
+}
+
 footer .content-wrapper {
 
   width: 55%;
@@ -1057,9 +1062,13 @@ header, footer {
 
 
 
-   .header-content {
+   .header-content, h1 {
 
     padding-right: 100px;
+
+    padding-left: 10%;
+
+
 
    }
 
@@ -1121,25 +1130,22 @@ p{
 
   margin: 0;
 
-  justify-content: space-evenly;
+  padding-left: 66px
 
 }
 
-.h3 {
- 
-  height: 23px;
 
-}
+
 
 .group-one {
 
   display: flex;
 
-  width: 50%;
+  width: 40%;
 
   flex-flow: row wrap;
 
-  margin: 0;
+  margin-left: 64px;
   
 }
 
@@ -1149,7 +1155,7 @@ p{
 
   display: flex;
 
-  width: 50%;
+  width: 40%;
 
   flex-flow: row wrap;
 
@@ -1163,7 +1169,19 @@ p{
 
   flex-flow: row wrap;
 
+  margin: 0;
+
 }
+
+.contact, 
+.social {
+
+  margin-left: 71.5px;
+
+  margin-right: 71.5px;
+}
+
+
 
 
 
@@ -1306,4 +1324,4 @@ p{
   }
 }
 
-    }
+}}
