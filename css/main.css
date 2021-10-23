@@ -170,7 +170,7 @@ address {
 }
  
 .content-wrapper {
-  width: 100%;
+  /* width: 100%;  */
  
 }
     /* -------------------- Base Header - Footer Styles -------------------- */
@@ -361,9 +361,9 @@ footer p {
 
 footer .content-wrapper {
 
-  width: 55%;
+ /* width: 55%;
 
-  margin: 50px;
+  margin: 50px; */
 
 }
 
@@ -381,6 +381,8 @@ footer .social-icons {
 
   align-items: center;
 
+  font-size: 1.75em;
+
 }
 
 footer .social-icons p {
@@ -390,6 +392,10 @@ footer .social-icons p {
   justify-content: center;
 
   align-items: center;
+
+  background-color: #527158;
+
+   border-radius: 50px;
 
 }
  footer .copyright {
@@ -544,7 +550,7 @@ input[type=button] {
   font-size: 3.75em;
 
   margin-bottom: 40px;
-  
+
 }
 
 /* Reviews */
@@ -1016,7 +1022,7 @@ header, footer {
   
     /* Footer */
     footer .content-wrapper {
-      width: 65%;
+      /* width: 65%; */
       margin: 100px 0;
     }
   
