@@ -741,6 +741,8 @@ header, footer {
 
     flex-flow: row wrap;
 
+    background-color: #527158;
+
   }
   
   .faq .content-wrapper {
