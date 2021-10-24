@@ -741,7 +741,7 @@ header, footer {
 
     flex-flow: row wrap;
 
-    background-color: #527158;
+    background-color:#527158;
 
   }
   
@@ -907,6 +907,7 @@ header, footer {
       justify-content: space-around;
 
       padding: 33px 0;
+
     }
   
     header .content-wrapper {
@@ -919,6 +920,7 @@ header, footer {
 
       display: flex;
       
+      align-items: center;
 
     }
 
@@ -1155,19 +1157,19 @@ p{
 
 .group-one {
 
-  display: flex;
+  /* display: flex; */
 
   width: 40%;
 
   flex-flow: row wrap;
 
-  margin-left: 64px;
+  margin-left: 50px;
   
 }
 
 
 
-.group-two {
+*/.group-two {
 
   display: flex;
 
@@ -1187,7 +1189,7 @@ p{
 
   margin: 0;
 
-}
+} /*
 
 .contact, 
 .social {
@@ -1225,13 +1227,13 @@ p{
     @media only screen and (min-width: 1200px) {
     /*Desktop styles here*/
 
-    .content-wrapper {
+    /* .content-wrapper { 
       max-width: 960px;
-    }
+    } */
   
     /* Hero */
     .hero-area h1 {
-      width: 60%;
+     /* width: 60%; */
   }
   
     /* Aside */
@@ -1340,4 +1342,4 @@ p{
   }
 }
 
-}}
+}
