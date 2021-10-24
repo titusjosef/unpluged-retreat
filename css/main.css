@@ -336,6 +336,10 @@ h4 {
 
   font-family: 'Poppins', sans-serif;
 
+  padding-bottom: 20px;
+
+  padding-top: 35px;
+
 }
 
 footer {
@@ -352,11 +356,14 @@ footer p {
 
   margin: 0;
 
+  padding-top: 0;
+
+
 }
 
 .footer-content {
 
-  margin: 100px;
+  /*margin: 100px;*/
 }
 
 footer .content-wrapper {
@@ -396,6 +403,14 @@ footer .social-icons p {
   background-color: #527158;
 
    border-radius: 50px;
+
+   margin-left: 20px;
+
+   margin-right: 20px;
+
+   padding: .875em;
+
+   margin: 0 1.25em 0 1.25em;
 
 }
  footer .copyright {
@@ -634,7 +649,7 @@ header, footer {
 
   flex-flow: row wrap;
 
-  padding: 50px;
+  /* padding: 50px; */
 }
 
 
@@ -1026,7 +1041,7 @@ header, footer {
   
     /* Footer */
     footer .content-wrapper {
-      /* width: 65%; */
+      /*width: 65%;*/
       margin: 100px 0;
     }
   
